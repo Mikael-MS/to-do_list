@@ -72,7 +72,7 @@ btn.addEventListener('click', function () {
 
         input.value = "";
 
-        renderTasks();
+        renderTasks(tasks);
 
         removeError();
 
